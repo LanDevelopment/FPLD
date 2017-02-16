@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "911 was an inside job", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -142,19 +142,21 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            // Show 4 total pages.
+            return 4;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "Polling";
                 case 1:
-                    return "SECTION 2";
+                    return "Twitter";
                 case 2:
-                    return "SECTION 3";
+                    return "News";
+                case 3:
+                    return "Politics";
             }
             return null;
         }
