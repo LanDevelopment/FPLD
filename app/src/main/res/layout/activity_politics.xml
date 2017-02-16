@@ -9,7 +9,7 @@
     tools:context="comlandevelopmentfpld.httpsgithub.fpld.MainActivity$PlaceholderFragment">
 
     <TextView
-        android:id="@+id/section_polls_textview"
+        android:id="@+id/section_politics_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
